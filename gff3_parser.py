@@ -119,24 +119,6 @@ for x in range(len(gff3)):
 pos_report = pos_report[pos_report['Type'] == 'transcript']
     
 pos_report.to_csv('pos_report.csv', index=False)
-    
-    #for y in range(len(chrom_list)):
-        
-        #lower_bound = bounds_lower[y] - 50000
-        
-        #upper_bound = bounds_higher[y] + 50000
-    
-        #if (chrom_list[y] == chrom) and (begin >= lower_bound) and (end <= upper_bound):
-    
-            #pos_report_temp['begin'][0] = int(begin)
-    
-            #pos_report_temp['end'][0] = int(end)
-    
-            #pos_report_temp['Gff3 Line'][0] = temp_line[0]
-        
-            #pos_report_temp['Chromosome'][0] = chrom_list[y]
-    
-            #pos_report = pos_report.append(pos_report_temp)
         
     
         
